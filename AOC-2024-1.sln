@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC-2024-1-Part1", "AOC-202
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AOC-2024-1-Part2", "..\AOC-2024-1-Part2\AOC-2024-1-Part2.csproj", "{3A7255F3-CD4A-4D13-88D7-C3A4C36488C0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AOC 2024 day1", "AOC 2024 day1", "{AD85BBB5-CA99-4698-9F56-2CF3C5ADE148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{34F3D50D-5CB6-4541-985B-A4585367719D} = {AD85BBB5-CA99-4698-9F56-2CF3C5ADE148}
+		{3A7255F3-CD4A-4D13-88D7-C3A4C36488C0} = {AD85BBB5-CA99-4698-9F56-2CF3C5ADE148}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {032A7E98-4096-4606-9858-26E4F194D287}
